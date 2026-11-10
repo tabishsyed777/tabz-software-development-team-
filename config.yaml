@@ -1,0 +1,16 @@
+{
+  "ollama_url": "http://127.0.0.1:11434",
+  "models": {
+    "pm": "qwen2.5-coder:7b",
+    "architect": "qwen2.5-coder:7b",
+    "developer": "qwen2.5-coder:7b",
+    "qa": "qwen2.5-coder:7b",
+    "reviewer": "qwen2.5-coder:7b",
+    "writer": "qwen2.5-coder:7b",
+    "release": "qwen2.5-coder:7b"
+  },
+  "max_fix_attempts": 5,
+  "command_timeout_seconds": 120,
+  "approval_gates": ["spec", "release"],
+  "temperature": 0.2
+}
